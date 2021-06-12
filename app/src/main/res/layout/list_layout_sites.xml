@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewNomDuSite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:padding="10dp"
+            android:text="Iron Man"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse" />
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:id="@+id/linearLayout"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#3A683C"
+            android:textColor="@android:color/white">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="18dp">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lambert X"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewLambertX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tony Stark"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lambert Y"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewLambertY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Avengers"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Région"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewRegion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1974"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Département"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewDepartement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stan Lee"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Commune"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewCommune"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marvel Comics"
+                        android:inputType="textMultiLine"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date début"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewDateDebut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marvel Comics"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date fin"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewDateFin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marvel Comics"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Périodes"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewPeriodes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marvel Comics"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thèmes"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewThemes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marvel Comics"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Type d'intervention"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/textViewTypeIntervention"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Marvel Comics"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                </TableRow>
+
+                <Button
+                    android:id="@+id/btn_one_site_activity"
+                    android:onClick="btn_one_site_activity"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#2196F3"
+                    android:layout_margin="15dp"
+                    android:text="En savoir +" />
+
+            </TableLayout>
+<!--            <Button-->
+<!--                android:id="@+id/buttonVoirPlus"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/editText2"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:background="#2196F3"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:text="Savoir +"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/buttonModifier"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@+id/editText2"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:background="#F1702B"-->
+<!--                android:layout_margin="15dp"-->
+<!--                android:text="Modifier"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+
+                <Button
+                    android:id="@+id/btn_update_activity"
+                    android:onClick="btn_update_activity"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="#F1702B"
+                    android:layout_margin="15dp"
+                    android:text="Modifier" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
